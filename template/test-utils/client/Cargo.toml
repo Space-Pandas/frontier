@@ -9,11 +9,11 @@ publish = false
 
 [dependencies]
 codec = { package = "parity-scale-codec", version = "2.0.0" }
-sp-runtime = { git = "https://github.com/paritytech/substrate.git" }
-sp-api = { git = "https://github.com/paritytech/substrate.git" }
-sc-executor = { git = "https://github.com/paritytech/substrate.git" }
-sc-light = { git = "https://github.com/paritytech/substrate.git" }
-sc-consensus = { git = "https://github.com/paritytech/substrate.git" }
-sc-client-api = { git = "https://github.com/paritytech/substrate.git" }
-substrate-test-client = { git = "https://github.com/paritytech/substrate.git" }
+sp-runtime = { tag = "v3.0.0", git = "https://github.com/paritytech/substrate.git" }
+sp-api = { tag = "v3.0.0", git = "https://github.com/paritytech/substrate.git" }
+sc-executor = { tag = "v3.0.0", git = "https://github.com/paritytech/substrate.git" }
+sc-light = { tag = "v3.0.0", git = "https://github.com/paritytech/substrate.git" }
+sc-consensus = { tag = "v3.0.0", git = "https://github.com/paritytech/substrate.git" }
+sc-client-api = { tag = "v3.0.0", git = "https://github.com/paritytech/substrate.git" }
+substrate-test-client = { tag = "v3.0.0", git = "https://github.com/paritytech/substrate.git" }
 frontier-template-runtime = { path = "../../runtime" }
